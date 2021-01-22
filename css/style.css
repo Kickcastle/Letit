@@ -1,0 +1,129 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: tahoma;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background: #454545;
+}
+.container-principal{
+    background: linear-gradient(to right, #ec9406d3 , #000000  ), url(../contenido/backgroud.jpg);
+    background-size: cover;
+    padding: 60px 0;
+    padding-top: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+/*Header*/
+
+.navigator{
+    text-align: right;
+    padding: 30px;
+    
+}
+.navigator a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:cambria;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right:5px;
+    transition: 0.7s;
+}
+.navigator a:hover{
+    color: rgb(136, 134, 134);
+    transition: 0.7s;
+}
+
+/*Section*/
+
+.containerBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo{
+    min-width: 45%;
+    padding-left: 15px;
+}
+.titulo h1{
+    font-size: 70px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-family: impact;
+}
+.titulo p{
+    width: 300px;
+    text-align: justify;
+}
+
+/*Segunda parte de la section*/
+
+.section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 50%;
+    text-align: justify;
+    margin-top: 40px;
+    padding-left: 15px;
+    color: rgb(221, 219, 219);
+}
+.section-info h2{
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+.section-text{
+    background: rgba(0,0,0,.4);
+}
+.section-text p{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.section-text2 p{
+    width: 300px;
+    padding: 3px;
+}
+/*Footer*/
+
+.galeria-icons{
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.galeria-icons a{
+    padding: 1px;
+    margin: 10px;
+}
+.galeria-icons img{
+    height: 20px;
+    width: 20px;
+    transition: 0.3s;
+}
+.galeria-icons img:hover{
+    transform: scale(1.8);
+    transition: 0.3s;
+}
